@@ -1,0 +1,236 @@
+1.8235 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3123 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001752CF6BAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001752F316E80>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3126 	EXP 	window1: mouseVisible = True
+10.3127 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.3127 	EXP 	window1: recordFrameIntervals = False
+10.4783 	EXP 	window1: recordFrameIntervals = True
+10.6617 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+10.6617 	EXP 	window1: recordFrameIntervals = False
+12.9149 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9163 	EXP 	Created target = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.9302 	EXP 	instrText: autoDraw = True
+15.2392 	EXP 	Imported conditions.xlsx as conditions, 6 conditions, 4 params
+15.2397 	EXP 	Created sequence: random, trialTypes=6, nReps=5, seed=None
+15.2400 	EXP 	New trial (rep=0, index=0): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+15.2430 	DATA 	Keypress: down
+15.2492 	EXP 	instrText: autoDraw = False
+15.2492 	EXP 	target: height = 0.05
+15.2492 	EXP 	target: height = 0.05
+15.2492 	EXP 	target: height = 0.05
+15.2492 	EXP 	target: text = 'blue '
+15.7497 	EXP 	target: autoDraw = True
+17.3196 	EXP 	New trial (rep=0, index=1): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+17.3223 	DATA 	Keypress: left
+17.3347 	EXP 	target: autoDraw = False
+17.3347 	EXP 	target: height = 0.05
+17.3347 	EXP 	target: height = 0.05
+17.3347 	EXP 	target: height = 0.05
+17.3347 	EXP 	target: text = 'green'
+17.8193 	EXP 	target: autoDraw = True
+21.8225 	EXP 	target: autoDraw = False
+21.8405 	EXP 	New trial (rep=0, index=2): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+21.8415 	DATA 	Keypress: right
+21.8558 	EXP 	target: autoDraw = False
+21.8558 	EXP 	target: text = 'green'
+22.3396 	EXP 	target: autoDraw = True
+24.0593 	EXP 	New trial (rep=0, index=3): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+24.0633 	DATA 	Keypress: down
+24.0747 	EXP 	target: autoDraw = False
+24.0747 	EXP 	target: height = 0.05
+24.0747 	EXP 	target: height = 0.05
+24.0747 	EXP 	target: height = 0.05
+24.0747 	EXP 	target: text = 'red'
+24.5585 	EXP 	target: autoDraw = True
+25.5460 	EXP 	New trial (rep=0, index=4): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+25.5513 	DATA 	Keypress: down
+25.5594 	EXP 	target: autoDraw = False
+25.5594 	EXP 	target: height = 0.05
+25.5594 	EXP 	target: height = 0.05
+25.5594 	EXP 	target: height = 0.05
+25.5594 	EXP 	target: text = 'blue'
+26.0433 	EXP 	target: autoDraw = True
+27.0127 	DATA 	Keypress: right
+27.0291 	EXP 	New trial (rep=0, index=5): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+27.0443 	EXP 	target: autoDraw = False
+27.0443 	EXP 	target: height = 0.05
+27.0443 	EXP 	target: height = 0.05
+27.0443 	EXP 	target: height = 0.05
+27.0443 	EXP 	target: text = 'red'
+27.5281 	EXP 	target: autoDraw = True
+29.4156 	EXP 	New trial (rep=1, index=0): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+29.4205 	DATA 	Keypress: left
+29.4298 	EXP 	target: autoDraw = False
+29.4298 	EXP 	target: height = 0.05
+29.4298 	EXP 	target: height = 0.05
+29.4298 	EXP 	target: height = 0.05
+29.4298 	EXP 	target: text = 'green'
+29.9139 	EXP 	target: autoDraw = True
+30.9327 	EXP 	New trial (rep=1, index=1): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+30.9352 	DATA 	Keypress: right
+30.9482 	EXP 	target: autoDraw = False
+30.9482 	EXP 	target: height = 0.05
+30.9482 	EXP 	target: height = 0.05
+30.9482 	EXP 	target: height = 0.05
+30.9482 	EXP 	target: text = 'blue '
+31.4321 	EXP 	target: autoDraw = True
+32.0856 	DATA 	Keypress: left
+32.1007 	EXP 	New trial (rep=1, index=2): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+32.1160 	EXP 	target: autoDraw = False
+32.1160 	EXP 	target: height = 0.05
+32.1160 	EXP 	target: height = 0.05
+32.1160 	EXP 	target: height = 0.05
+32.1160 	EXP 	target: text = 'red'
+32.5999 	EXP 	target: autoDraw = True
+33.2351 	EXP 	New trial (rep=1, index=3): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+33.2360 	DATA 	Keypress: left
+33.2505 	EXP 	target: autoDraw = False
+33.2505 	EXP 	target: text = 'red'
+33.7343 	EXP 	target: autoDraw = True
+34.5700 	EXP 	New trial (rep=1, index=4): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+34.5724 	DATA 	Keypress: down
+34.5852 	EXP 	target: autoDraw = False
+34.5852 	EXP 	target: height = 0.05
+34.5852 	EXP 	target: height = 0.05
+34.5852 	EXP 	target: height = 0.05
+34.5852 	EXP 	target: text = 'blue'
+35.0690 	EXP 	target: autoDraw = True
+35.5708 	EXP 	New trial (rep=1, index=5): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+35.5739 	DATA 	Keypress: right
+35.5862 	EXP 	target: autoDraw = False
+35.5862 	EXP 	target: height = 0.05
+35.5862 	EXP 	target: height = 0.05
+35.5862 	EXP 	target: height = 0.05
+35.5862 	EXP 	target: text = 'green'
+36.0700 	EXP 	target: autoDraw = True
+37.2396 	EXP 	New trial (rep=2, index=0): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+37.2408 	DATA 	Keypress: down
+37.2542 	EXP 	target: autoDraw = False
+37.2542 	EXP 	target: text = 'green'
+37.7383 	EXP 	target: autoDraw = True
+38.1400 	EXP 	New trial (rep=2, index=1): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+38.1425 	DATA 	Keypress: down
+38.1554 	EXP 	target: autoDraw = False
+38.1554 	EXP 	target: height = 0.05
+38.1554 	EXP 	target: height = 0.05
+38.1554 	EXP 	target: height = 0.05
+38.1554 	EXP 	target: text = 'blue '
+38.6394 	EXP 	target: autoDraw = True
+39.4916 	EXP 	New trial (rep=2, index=2): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+39.4943 	DATA 	Keypress: left
+39.5067 	EXP 	target: autoDraw = False
+39.5067 	EXP 	target: height = 0.05
+39.5067 	EXP 	target: height = 0.05
+39.5067 	EXP 	target: height = 0.05
+39.5067 	EXP 	target: text = 'green'
+39.9905 	EXP 	target: autoDraw = True
+40.6930 	DATA 	Keypress: right
+40.7091 	EXP 	New trial (rep=2, index=3): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+40.7246 	EXP 	target: autoDraw = False
+40.7246 	EXP 	target: height = 0.05
+40.7246 	EXP 	target: height = 0.05
+40.7246 	EXP 	target: height = 0.05
+40.7246 	EXP 	target: text = 'blue'
+41.2084 	EXP 	target: autoDraw = True
+41.5774 	EXP 	New trial (rep=2, index=4): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+41.5805 	DATA 	Keypress: right
+41.5924 	EXP 	target: autoDraw = False
+41.5924 	EXP 	target: height = 0.05
+41.5924 	EXP 	target: height = 0.05
+41.5924 	EXP 	target: height = 0.05
+41.5924 	EXP 	target: text = 'red'
+42.0761 	EXP 	target: autoDraw = True
+42.6612 	EXP 	New trial (rep=2, index=5): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+42.6621 	DATA 	Keypress: left
+42.6765 	EXP 	target: autoDraw = False
+42.6765 	EXP 	target: text = 'red'
+43.1603 	EXP 	target: autoDraw = True
+43.7792 	EXP 	New trial (rep=3, index=0): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+43.7819 	DATA 	Keypress: down
+43.7945 	EXP 	target: autoDraw = False
+43.7945 	EXP 	target: height = 0.05
+43.7945 	EXP 	target: height = 0.05
+43.7945 	EXP 	target: height = 0.05
+43.7945 	EXP 	target: text = 'green'
+44.2782 	EXP 	target: autoDraw = True
+45.3813 	DATA 	Keypress: right
+45.3973 	EXP 	New trial (rep=3, index=1): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+45.4124 	EXP 	target: autoDraw = False
+45.4124 	EXP 	target: height = 0.05
+45.4124 	EXP 	target: height = 0.05
+45.4124 	EXP 	target: height = 0.05
+45.4124 	EXP 	target: text = 'blue '
+45.8964 	EXP 	target: autoDraw = True
+47.8330 	EXP 	New trial (rep=3, index=2): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+47.8355 	DATA 	Keypress: down
+47.8484 	EXP 	target: autoDraw = False
+47.8484 	EXP 	target: height = 0.05
+47.8484 	EXP 	target: height = 0.05
+47.8484 	EXP 	target: height = 0.05
+47.8484 	EXP 	target: text = 'blue'
+48.3322 	EXP 	target: autoDraw = True
+50.6030 	EXP 	New trial (rep=3, index=3): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+50.6064 	DATA 	Keypress: right
+50.6178 	EXP 	target: autoDraw = False
+50.6178 	EXP 	target: height = 0.05
+50.6178 	EXP 	target: height = 0.05
+50.6178 	EXP 	target: height = 0.05
+50.6178 	EXP 	target: text = 'red'
+51.1016 	EXP 	target: autoDraw = True
+52.7714 	EXP 	New trial (rep=3, index=4): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+52.7726 	DATA 	Keypress: left
+52.7865 	EXP 	target: autoDraw = False
+52.7865 	EXP 	target: text = 'red'
+53.2702 	EXP 	target: autoDraw = True
+54.0725 	EXP 	New trial (rep=3, index=5): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+54.0752 	DATA 	Keypress: down
+54.0880 	EXP 	target: autoDraw = False
+54.0880 	EXP 	target: height = 0.05
+54.0880 	EXP 	target: height = 0.05
+54.0880 	EXP 	target: height = 0.05
+54.0880 	EXP 	target: text = 'green'
+54.5718 	EXP 	target: autoDraw = True
+55.1236 	EXP 	New trial (rep=4, index=0): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+55.1261 	DATA 	Keypress: down
+55.1390 	EXP 	target: autoDraw = False
+55.1390 	EXP 	target: height = 0.05
+55.1390 	EXP 	target: height = 0.05
+55.1390 	EXP 	target: height = 0.05
+55.1390 	EXP 	target: text = 'red'
+55.6228 	EXP 	target: autoDraw = True
+58.5104 	EXP 	New trial (rep=4, index=1): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+58.5113 	DATA 	Keypress: left
+58.5257 	EXP 	target: autoDraw = False
+58.5257 	EXP 	target: text = 'red'
+59.0095 	EXP 	target: autoDraw = True
+60.0285 	EXP 	New trial (rep=4, index=2): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+60.0309 	DATA 	Keypress: down
+60.0438 	EXP 	target: autoDraw = False
+60.0438 	EXP 	target: height = 0.05
+60.0438 	EXP 	target: height = 0.05
+60.0438 	EXP 	target: height = 0.05
+60.0438 	EXP 	target: text = 'blue'
+60.5275 	EXP 	target: autoDraw = True
+61.0132 	DATA 	Keypress: right
+61.0302 	EXP 	New trial (rep=4, index=3): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+61.0447 	EXP 	target: autoDraw = False
+61.0447 	EXP 	target: height = 0.05
+61.0447 	EXP 	target: height = 0.05
+61.0447 	EXP 	target: height = 0.05
+61.0447 	EXP 	target: text = 'blue '
+61.5286 	EXP 	target: autoDraw = True
+62.2810 	EXP 	New trial (rep=4, index=4): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+62.2841 	DATA 	Keypress: left
+62.2961 	EXP 	target: autoDraw = False
+62.2961 	EXP 	target: height = 0.05
+62.2961 	EXP 	target: height = 0.05
+62.2961 	EXP 	target: height = 0.05
+62.2961 	EXP 	target: text = 'green'
+62.7799 	EXP 	target: autoDraw = True
+65.8687 	EXP 	New trial (rep=4, index=5): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+65.8704 	DATA 	Keypress: right
+65.8830 	EXP 	target: autoDraw = False
+65.8830 	EXP 	target: text = 'green'
+66.3668 	EXP 	target: autoDraw = True
+67.6196 	DATA 	Keypress: down
+67.6347 	EXP 	target: autoDraw = False
+67.6907 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,93 @@
+1.7711 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.7391 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002014C9F68E0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002014D020760>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.7393 	EXP 	window1: mouseVisible = True
+9.7393 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.7394 	EXP 	window1: recordFrameIntervals = False
+9.9054 	EXP 	window1: recordFrameIntervals = True
+10.0888 	EXP 	Screen (0) actual frame rate measured at 60.09Hz
+10.0888 	EXP 	window1: recordFrameIntervals = False
+12.3398 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.3412 	EXP 	Created target = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.3578 	EXP 	instrText: autoDraw = True
+15.3128 	DATA 	Mouse: Left button down, pos=(1372,863)
+15.3959 	DATA 	Mouse:  Left button up, pos=(1372,862)
+16.3691 	EXP 	Imported conditions.xlsx as conditions, 6 conditions, 4 params
+16.3696 	EXP 	Created sequence: random, trialTypes=6, nReps=5, seed=None
+16.3699 	EXP 	New trial (rep=0, index=0): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+16.3727 	DATA 	Keypress: num_1
+16.3787 	EXP 	instrText: autoDraw = False
+16.3787 	EXP 	target: height = 0.05
+16.3787 	EXP 	target: height = 0.05
+16.3787 	EXP 	target: height = 0.05
+16.3787 	EXP 	target: text = 'green'
+16.8789 	EXP 	target: autoDraw = True
+20.8829 	EXP 	target: autoDraw = False
+26.5569 	EXP 	New trial (rep=0, index=1): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+26.5599 	DATA 	Keypress: down
+26.5718 	EXP 	target: autoDraw = False
+26.5718 	EXP 	target: height = 0.05
+26.5718 	EXP 	target: height = 0.05
+26.5718 	EXP 	target: height = 0.05
+26.5718 	EXP 	target: text = 'red'
+27.0557 	EXP 	target: autoDraw = True
+28.4918 	EXP 	New trial (rep=0, index=2): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+28.4954 	DATA 	Keypress: left
+28.5072 	EXP 	target: autoDraw = False
+28.5072 	EXP 	target: height = 0.05
+28.5072 	EXP 	target: height = 0.05
+28.5072 	EXP 	target: height = 0.05
+28.5072 	EXP 	target: text = 'blue'
+28.9910 	EXP 	target: autoDraw = True
+29.8598 	EXP 	New trial (rep=0, index=3): {'word': 'green', 'color': 'green', 'congruent': 1, 'corrAns': 'down'}
+29.8623 	DATA 	Keypress: down
+29.8750 	EXP 	target: autoDraw = False
+29.8750 	EXP 	target: height = 0.05
+29.8750 	EXP 	target: height = 0.05
+29.8750 	EXP 	target: height = 0.05
+29.8750 	EXP 	target: text = 'green'
+30.3590 	EXP 	target: autoDraw = True
+32.3626 	EXP 	New trial (rep=0, index=4): {'word': 'red', 'color': 'green', 'congruent': 0, 'corrAns': 'down'}
+32.3648 	DATA 	Keypress: down
+32.3779 	EXP 	target: autoDraw = False
+32.3779 	EXP 	target: height = 0.05
+32.3779 	EXP 	target: height = 0.05
+32.3779 	EXP 	target: height = 0.05
+32.3779 	EXP 	target: text = 'red'
+32.8617 	EXP 	target: autoDraw = True
+36.8656 	EXP 	target: autoDraw = False
+41.3386 	EXP 	New trial (rep=0, index=5): {'word': 'blue ', 'color': 'red', 'congruent': 0, 'corrAns': 'left'}
+41.3421 	DATA 	Keypress: left
+41.3534 	EXP 	target: autoDraw = False
+41.3534 	EXP 	target: height = 0.05
+41.3534 	EXP 	target: height = 0.05
+41.3534 	EXP 	target: height = 0.05
+41.3534 	EXP 	target: text = 'blue '
+41.8370 	EXP 	target: autoDraw = True
+45.8411 	EXP 	target: autoDraw = False
+49.5296 	EXP 	New trial (rep=1, index=0): {'word': 'blue', 'color': 'blue', 'congruent': 1, 'corrAns': 'right'}
+49.5325 	DATA 	Keypress: left
+49.5449 	EXP 	target: autoDraw = False
+49.5449 	EXP 	target: height = 0.05
+49.5449 	EXP 	target: height = 0.05
+49.5449 	EXP 	target: height = 0.05
+49.5449 	EXP 	target: text = 'blue'
+50.0285 	EXP 	target: autoDraw = True
+54.0325 	EXP 	target: autoDraw = False
+55.2018 	EXP 	New trial (rep=1, index=1): {'word': 'red', 'color': 'red', 'congruent': 1, 'corrAns': 'left'}
+55.2046 	DATA 	Keypress: left
+55.2173 	EXP 	target: autoDraw = False
+55.2173 	EXP 	target: height = 0.05
+55.2173 	EXP 	target: height = 0.05
+55.2173 	EXP 	target: height = 0.05
+55.2173 	EXP 	target: text = 'red'
+55.7008 	EXP 	target: autoDraw = True
+58.4050 	EXP 	New trial (rep=1, index=2): {'word': 'green', 'color': 'blue', 'congruent': 0, 'corrAns': 'right'}
+58.4074 	DATA 	Keypress: left
+58.4203 	EXP 	target: autoDraw = False
+58.4203 	EXP 	target: height = 0.05
+58.4203 	EXP 	target: height = 0.05
+58.4203 	EXP 	target: height = 0.05
+58.4203 	EXP 	target: text = 'green'
+58.9041 	EXP 	target: autoDraw = True
+62.1093 	DATA 	Keypress: escape
+62.7622 	EXP 	window1: mouseVisible = True
