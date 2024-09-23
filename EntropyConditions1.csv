@@ -1,0 +1,5 @@
+﻿positionA,imageA,imageB
+"(-0.5, 0)",images/dot_array1.png,images/probeImage1.png
+"(0.5, 0)",images/dot_array1.png,images/probeImage1.png
+"(-0.5, 0)",images/dot_array2.png,images/probeImage2.png
+"(0.5, 0)",images/dot_array2.png,images/probeImage2.png
