@@ -1,0 +1,194 @@
+1.7926 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.8756 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001809E86FAC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001809DEEFEE0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.8757 	EXP 	window1: mouseVisible = True
+10.8757 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.8757 	EXP 	window1: recordFrameIntervals = False
+11.0419 	EXP 	window1: recordFrameIntervals = True
+11.2264 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+11.2265 	EXP 	window1: recordFrameIntervals = False
+11.3382 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+14.0136 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.0264 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/target.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.0264 	EXP 	window1: mouseVisible = True
+14.0324 	EXP 	Imported C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/conditions.xlsx as conditions, 10 conditions, 3 params
+14.0339 	EXP 	Created sequence: random, trialTypes=10, nReps=2, seed=None
+14.0342 	EXP 	New trial (rep=0, index=0): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+14.0631 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+14.0631 	EXP 	cue: autoDraw = True
+14.7473 	EXP 	target: autoDraw = True
+14.7630 	EXP 	cue: autoDraw = False
+15.2470 	DATA 	Mouse: Left button down, pos=(1467,649)
+15.2492 	EXP 	New trial (rep=0, index=1): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+15.2641 	EXP 	cue: autoDraw = False
+15.2641 	EXP 	target: autoDraw = False
+15.2641 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+15.2641 	EXP 	cue: autoDraw = True
+15.3147 	DATA 	Mouse:  Left button up, pos=(1467,650)
+15.9472 	EXP 	target: autoDraw = True
+15.9639 	EXP 	cue: autoDraw = False
+16.2150 	DATA 	Mouse: Left button down, pos=(1418,613)
+16.2166 	EXP 	New trial (rep=0, index=2): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+16.2318 	EXP 	cue: autoDraw = False
+16.2318 	EXP 	target: autoDraw = False
+16.2318 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+16.2318 	EXP 	cue: autoDraw = True
+16.2995 	DATA 	Mouse:  Left button up, pos=(1418,613)
+16.9319 	EXP 	cue: autoDraw = False
+16.9319 	EXP 	target: autoDraw = True
+17.1656 	DATA 	Mouse: Left button down, pos=(555,559)
+17.1672 	EXP 	New trial (rep=0, index=3): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+17.1827 	EXP 	cue: autoDraw = False
+17.1827 	EXP 	target: autoDraw = False
+17.1827 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+17.1827 	EXP 	cue: autoDraw = True
+17.2496 	DATA 	Mouse:  Left button up, pos=(555,559)
+17.8660 	EXP 	target: autoDraw = True
+17.8824 	EXP 	cue: autoDraw = False
+18.1999 	DATA 	Mouse: Left button down, pos=(1631,552)
+18.2014 	EXP 	New trial (rep=0, index=4): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+18.2168 	EXP 	cue: autoDraw = False
+18.2168 	EXP 	target: autoDraw = False
+18.2168 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+18.2168 	EXP 	cue: autoDraw = True
+18.3007 	DATA 	Mouse:  Left button up, pos=(1629,554)
+18.9007 	EXP 	target: autoDraw = True
+18.9167 	EXP 	cue: autoDraw = False
+19.2689 	DATA 	Mouse: Left button down, pos=(562,501)
+19.2703 	EXP 	New trial (rep=0, index=5): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+19.2844 	EXP 	cue: autoDraw = False
+19.2844 	EXP 	target: autoDraw = False
+19.2844 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+19.2844 	EXP 	cue: autoDraw = True
+19.3680 	DATA 	Mouse:  Left button up, pos=(562,501)
+19.9678 	EXP 	target: autoDraw = True
+19.9850 	EXP 	cue: autoDraw = False
+20.3857 	DATA 	Mouse: Left button down, pos=(598,507)
+20.3878 	EXP 	New trial (rep=0, index=6): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+20.4026 	EXP 	cue: autoDraw = False
+20.4026 	EXP 	target: autoDraw = False
+20.4026 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+20.4026 	EXP 	cue: autoDraw = True
+20.4691 	DATA 	Mouse:  Left button up, pos=(598,507)
+21.0856 	EXP 	target: autoDraw = True
+21.1026 	EXP 	cue: autoDraw = False
+21.4700 	DATA 	Mouse: Left button down, pos=(606,495)
+21.4715 	EXP 	New trial (rep=0, index=7): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+21.4871 	EXP 	cue: autoDraw = False
+21.4871 	EXP 	target: autoDraw = False
+21.4871 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+21.4871 	EXP 	cue: autoDraw = True
+21.5537 	DATA 	Mouse:  Left button up, pos=(606,495)
+22.1701 	EXP 	target: autoDraw = True
+22.1877 	EXP 	cue: autoDraw = False
+22.6048 	DATA 	Mouse: Left button down, pos=(466,507)
+22.6063 	EXP 	New trial (rep=0, index=8): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+22.6210 	EXP 	cue: autoDraw = False
+22.6210 	EXP 	target: autoDraw = False
+22.6210 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+22.6210 	EXP 	cue: autoDraw = True
+22.7058 	DATA 	Mouse:  Left button up, pos=(466,507)
+23.3050 	EXP 	target: autoDraw = True
+23.3210 	EXP 	cue: autoDraw = False
+23.6392 	DATA 	Mouse: Left button down, pos=(1601,608)
+23.6406 	EXP 	New trial (rep=0, index=9): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+23.6554 	EXP 	cue: autoDraw = False
+23.6554 	EXP 	target: autoDraw = False
+23.6554 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+23.6554 	EXP 	cue: autoDraw = True
+23.7232 	DATA 	Mouse:  Left button up, pos=(1600,609)
+24.3389 	EXP 	target: autoDraw = True
+24.3560 	EXP 	cue: autoDraw = False
+24.7397 	DATA 	Mouse: Left button down, pos=(1568,636)
+24.7417 	EXP 	New trial (rep=1, index=0): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+24.7564 	EXP 	cue: autoDraw = False
+24.7564 	EXP 	target: autoDraw = False
+24.7564 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+24.7564 	EXP 	cue: autoDraw = True
+24.8077 	DATA 	Mouse:  Left button up, pos=(1560,634)
+25.4404 	EXP 	target: autoDraw = True
+25.4566 	EXP 	cue: autoDraw = False
+25.6572 	DATA 	Mouse: Left button down, pos=(501,525)
+25.6587 	EXP 	New trial (rep=1, index=1): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+25.6741 	EXP 	cue: autoDraw = False
+25.6741 	EXP 	target: autoDraw = False
+25.6741 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+25.6741 	EXP 	cue: autoDraw = True
+25.7249 	DATA 	Mouse:  Left button up, pos=(501,525)
+26.3585 	EXP 	target: autoDraw = True
+26.3741 	EXP 	cue: autoDraw = False
+26.5253 	DATA 	Mouse: Left button down, pos=(1445,572)
+26.5268 	EXP 	New trial (rep=1, index=2): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+26.5423 	EXP 	cue: autoDraw = False
+26.5423 	EXP 	target: autoDraw = False
+26.5423 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+26.5423 	EXP 	cue: autoDraw = True
+26.6091 	DATA 	Mouse:  Left button up, pos=(1445,572)
+27.2259 	EXP 	target: autoDraw = True
+27.2416 	EXP 	cue: autoDraw = False
+27.7594 	DATA 	Mouse: Left button down, pos=(1295,531)
+27.7608 	EXP 	New trial (rep=1, index=3): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': 0.5, 'is_valid': 'invalid'}
+27.7770 	EXP 	cue: autoDraw = False
+27.7770 	EXP 	target: autoDraw = False
+27.7770 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+27.7770 	EXP 	cue: autoDraw = True
+27.8432 	DATA 	Mouse:  Left button up, pos=(1295,531)
+28.4596 	EXP 	target: autoDraw = True
+28.4770 	EXP 	cue: autoDraw = False
+28.9778 	DATA 	Mouse: Left button down, pos=(1417,547)
+28.9792 	EXP 	New trial (rep=1, index=4): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+28.9939 	EXP 	cue: autoDraw = False
+28.9939 	EXP 	target: autoDraw = False
+28.9939 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+28.9939 	EXP 	cue: autoDraw = True
+29.0616 	DATA 	Mouse:  Left button up, pos=(1417,547)
+29.6775 	EXP 	target: autoDraw = True
+29.6950 	EXP 	cue: autoDraw = False
+29.9457 	DATA 	Mouse: Left button down, pos=(585,484)
+29.9472 	EXP 	New trial (rep=1, index=5): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+29.9617 	EXP 	cue: autoDraw = False
+29.9617 	EXP 	target: autoDraw = False
+29.9617 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+29.9617 	EXP 	cue: autoDraw = True
+30.0126 	DATA 	Mouse:  Left button up, pos=(585,484)
+30.6458 	EXP 	target: autoDraw = True
+30.6623 	EXP 	cue: autoDraw = False
+31.3814 	DATA 	Mouse: Left button down, pos=(549,461)
+31.3983 	EXP 	New trial (rep=1, index=6): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+31.4130 	EXP 	cue: autoDraw = False
+31.4130 	EXP 	target: autoDraw = False
+31.4130 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+31.4130 	EXP 	cue: autoDraw = True
+31.4810 	DATA 	Mouse:  Left button up, pos=(549,461)
+32.0974 	EXP 	target: autoDraw = True
+32.1133 	EXP 	cue: autoDraw = False
+32.3317 	DATA 	Mouse: Left button down, pos=(1354,522)
+32.3335 	EXP 	New trial (rep=1, index=7): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': -0.5, 'is_valid': 'invalid'}
+32.3482 	EXP 	cue: autoDraw = False
+32.3482 	EXP 	target: autoDraw = False
+32.3482 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+32.3482 	EXP 	cue: autoDraw = True
+32.3982 	DATA 	Mouse:  Left button up, pos=(1354,522)
+33.0308 	EXP 	target: autoDraw = True
+33.0474 	EXP 	cue: autoDraw = False
+33.3816 	DATA 	Mouse: Left button down, pos=(527,539)
+33.3831 	EXP 	New trial (rep=1, index=8): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png', 'target_x': -0.5, 'is_valid': 'valid'}
+33.3992 	EXP 	cue: autoDraw = False
+33.3992 	EXP 	target: autoDraw = False
+33.3992 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_left.png'
+33.3992 	EXP 	cue: autoDraw = True
+33.4655 	DATA 	Mouse:  Left button up, pos=(527,539)
+34.0819 	EXP 	target: autoDraw = True
+34.0990 	EXP 	cue: autoDraw = False
+34.6162 	DATA 	Mouse: Left button down, pos=(532,482)
+34.6176 	EXP 	New trial (rep=1, index=9): {'cue_file': 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png', 'target_x': 0.5, 'is_valid': 'valid'}
+34.6330 	EXP 	cue: autoDraw = False
+34.6330 	EXP 	target: autoDraw = False
+34.6330 	EXP 	cue: image = 'C:/Users/kerry/Documents/Kyle Files/PsychoPyProjects/posnerFiles/images/arrow_right.png'
+34.6330 	EXP 	cue: autoDraw = True
+34.7168 	DATA 	Mouse:  Left button up, pos=(532,482)
+35.3172 	EXP 	target: autoDraw = True
+35.3329 	EXP 	cue: autoDraw = False
+35.5337 	DATA 	Mouse: Left button down, pos=(1474,603)
+35.5498 	EXP 	cue: autoDraw = False
+35.5498 	EXP 	target: autoDraw = False
+35.8553 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,11 @@
+1.8012 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.0201 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A4FA20EAC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A4F97CFEE0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.0202 	EXP 	window1: mouseVisible = True
+10.0202 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.0202 	EXP 	window1: recordFrameIntervals = False
+10.1872 	EXP 	window1: recordFrameIntervals = True
+10.3708 	EXP 	Screen (0) actual frame rate measured at 59.79Hz
+10.3709 	EXP 	window1: recordFrameIntervals = False
+10.4676 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+12.6647 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.9064 	EXP 	window1: mouseVisible = True
