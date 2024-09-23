@@ -1,0 +1,145 @@
+1.7484 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+47.7165 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+48.5049 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002A0A4B01B80>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002A0A4C7F340>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+48.5051 	EXP 	window1: mouseVisible = True
+48.5052 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+48.5052 	EXP 	window1: recordFrameIntervals = False
+48.6715 	EXP 	window1: recordFrameIntervals = True
+48.8551 	EXP 	Screen (0) actual frame rate measured at 60.05Hz
+48.8552 	EXP 	window1: recordFrameIntervals = False
+49.6196 	EXP 	Created fixationImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fixationImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+49.6282 	EXP 	Created LeftBox = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='LeftBox', opacity=1.0, ori=0.0, pos=array([-0.45,  0.  ]), size=array([0.6, 0.6]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6332 	EXP 	Created RightBox = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='RightBox', opacity=1.0, ori=0.0, pos=array([0.45, 0.  ]), size=array([0.6, 0.6]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6380 	EXP 	Created TShape1A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='TShape1A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6427 	EXP 	Created TShape2A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='TShape2A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6475 	EXP 	Created TShape3A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='TShape3A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6497 	EXP 	Created NShape1A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape1A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6516 	EXP 	Created NShape2A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape2A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6535 	EXP 	Created NShape3A = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape3A', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6581 	EXP 	Created LeftBox2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='LeftBox2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.  ]), size=array([0.6, 0.6]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6627 	EXP 	Created RightBox2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='RightBox2', opacity=1.0, ori=0.0, pos=array([0.45, 0.  ]), size=array([0.6, 0.6]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6673 	EXP 	Created TShape1B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='TShape1B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6691 	EXP 	Created TShape2B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='TShape2B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6709 	EXP 	Created TShape3B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='TShape3B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6731 	EXP 	Created NShape1B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape1B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6751 	EXP 	Created NShape2B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape2B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.6770 	EXP 	Created NShape3B = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, fillColor=array([-0.17647059, -0.17647059, -0.17647059]), fillColorSpace='rgb', fillRGB=array([-0.17647059, -0.17647059, -0.17647059]), interpolate=True, lineColor=array([-0.17647059, -0.17647059, -0.17647059]), lineColorSpace='rgb', lineRGB=array([-0.17647059, -0.17647059, -0.17647059]), lineWidth=1.0, name='NShape3B', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+49.7023 	EXP 	Sound Sound set volume 1.000
+49.7169 	EXP 	Imported MASTER_TEMPLATE.csv as conditions, 54 conditions, 20 params
+49.7175 	EXP 	Created sequence: random, trialTypes=54, nReps=1, seed=None
+49.7179 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetLeft', True), ('ID', 'C'), ('shape', 6.0), ('targetSize', 0.13), ('targetX', 0.45), ('targetY', 0.0), ('targetX2', None), ('targetY2', None), ('targetX3', None), ('targetY3', None), ('numNonTargets', 2), ('nontargetSize', 0.1), ('nontargetX', -0.4), ('nontargetY', 0.2), ('nontargetX2', -0.6), ('nontargetY2', 0.1), ('nontargetX3', None), ('nontargetY3', None), ('rewardCombo', 'Reward/Color_2.csv'), ('fixation', 'Animal/Cow.png')])
+50.0640 	EXP 	fixationImage: image = 'Animal/Cow.png'
+50.0640 	EXP 	fixationImage: ori = 0
+50.0640 	EXP 	fixationImage: ori = 0.5
+50.0640 	EXP 	fixationImage: autoDraw = True
+50.0737 	EXP 	fixationImage: ori = 1.0
+50.0904 	EXP 	fixationImage: ori = 1.5
+50.1071 	EXP 	fixationImage: ori = 2.0
+50.1237 	EXP 	fixationImage: ori = 2.5
+50.1404 	EXP 	fixationImage: ori = 3.0
+50.1571 	EXP 	fixationImage: ori = 3.5
+50.1738 	EXP 	fixationImage: ori = 4.0
+50.1905 	EXP 	fixationImage: ori = 4.5
+50.2072 	EXP 	fixationImage: ori = 5.0
+50.2239 	EXP 	fixationImage: ori = 5.5
+50.2405 	EXP 	fixationImage: ori = 6.0
+50.2573 	EXP 	fixationImage: ori = 6.5
+50.2739 	EXP 	fixationImage: ori = 7.0
+50.2906 	EXP 	fixationImage: ori = 7.5
+50.3073 	EXP 	fixationImage: ori = 8.0
+50.3240 	EXP 	fixationImage: ori = 8.5
+50.3406 	EXP 	fixationImage: ori = 9.0
+50.3573 	EXP 	fixationImage: ori = 9.5
+50.3740 	EXP 	fixationImage: ori = 10.0
+50.3907 	EXP 	fixationImage: ori = 10.5
+50.4074 	EXP 	fixationImage: ori = 11.0
+50.4240 	EXP 	fixationImage: ori = 11.5
+50.4408 	EXP 	fixationImage: ori = 12.0
+50.4574 	EXP 	fixationImage: ori = 12.5
+50.4741 	EXP 	fixationImage: ori = 13.0
+50.4909 	EXP 	fixationImage: ori = 13.5
+50.5075 	EXP 	fixationImage: ori = 14.0
+50.5242 	EXP 	fixationImage: ori = 14.5
+50.5409 	EXP 	fixationImage: ori = 15.0
+50.5575 	EXP 	fixationImage: ori = 15.5
+50.5743 	EXP 	fixationImage: ori = 16.0
+50.5910 	EXP 	fixationImage: ori = 16.5
+50.6076 	EXP 	fixationImage: ori = 17.0
+50.6242 	EXP 	fixationImage: ori = 17.5
+50.6410 	EXP 	fixationImage: ori = 18.0
+50.6577 	EXP 	fixationImage: ori = 18.5
+50.6743 	EXP 	fixationImage: ori = 19.0
+50.6910 	EXP 	fixationImage: ori = 19.5
+50.7077 	EXP 	fixationImage: ori = 20.0
+50.7244 	EXP 	fixationImage: ori = 20.5
+50.7411 	EXP 	fixationImage: ori = 21.0
+50.7579 	EXP 	fixationImage: ori = 21.5
+50.7744 	EXP 	fixationImage: ori = 22.0
+50.7911 	EXP 	fixationImage: ori = 21.5
+50.8078 	EXP 	fixationImage: ori = 21.0
+50.8245 	EXP 	fixationImage: ori = 20.5
+50.8412 	EXP 	fixationImage: ori = 20.0
+50.8579 	EXP 	fixationImage: ori = 19.5
+50.8750 	EXP 	fixationImage: ori = 19.0
+50.8912 	EXP 	fixationImage: ori = 18.5
+50.9079 	EXP 	fixationImage: ori = 18.0
+50.9246 	EXP 	fixationImage: ori = 17.5
+50.9413 	EXP 	fixationImage: ori = 17.0
+50.9579 	EXP 	fixationImage: ori = 16.5
+50.9746 	EXP 	fixationImage: ori = 16.0
+50.9914 	EXP 	fixationImage: ori = 15.5
+51.0080 	EXP 	fixationImage: ori = 15.0
+51.0247 	EXP 	fixationImage: ori = 14.5
+51.0416 	EXP 	fixationImage: ori = 14.0
+51.0580 	EXP 	fixationImage: ori = 13.5
+51.0747 	EXP 	fixationImage: ori = 13.0
+51.0916 	EXP 	fixationImage: ori = 12.5
+51.1081 	EXP 	fixationImage: ori = 12.0
+51.1251 	EXP 	fixationImage: ori = 11.5
+51.1415 	EXP 	fixationImage: ori = 11.0
+51.1581 	EXP 	fixationImage: ori = 10.5
+51.1748 	EXP 	fixationImage: ori = 10.0
+51.1917 	EXP 	fixationImage: ori = 9.5
+51.2083 	EXP 	fixationImage: ori = 9.0
+51.2249 	EXP 	fixationImage: ori = 8.5
+51.2418 	EXP 	fixationImage: ori = 8.0
+51.2582 	EXP 	fixationImage: ori = 7.5
+51.2749 	EXP 	fixationImage: ori = 7.0
+51.2918 	EXP 	fixationImage: ori = 6.5
+51.3083 	EXP 	fixationImage: ori = 6.0
+51.3250 	EXP 	fixationImage: ori = 5.5
+51.3417 	EXP 	fixationImage: ori = 5.0
+51.3583 	EXP 	fixationImage: ori = 4.5
+51.3750 	EXP 	fixationImage: ori = 4.0
+51.3918 	EXP 	fixationImage: ori = 3.5
+51.4084 	EXP 	fixationImage: ori = 3.0
+51.4251 	EXP 	fixationImage: ori = 2.5
+51.4418 	EXP 	fixationImage: ori = 2.0
+51.4585 	EXP 	fixationImage: ori = 1.5
+51.4752 	EXP 	fixationImage: ori = 1.0
+51.4919 	EXP 	fixationImage: ori = 0.5
+51.5085 	EXP 	fixationImage: ori = 0.0
+51.5254 	EXP 	fixationImage: ori = -0.5
+51.5420 	EXP 	fixationImage: ori = -1.0
+51.5585 	EXP 	fixationImage: ori = -1.5
+51.5752 	EXP 	fixationImage: ori = -2.0
+51.5919 	EXP 	fixationImage: ori = -2.5
+51.6086 	EXP 	fixationImage: ori = -3.0
+51.6253 	EXP 	fixationImage: ori = -3.5
+51.6421 	EXP 	fixationImage: ori = -4.0
+51.6587 	EXP 	fixationImage: ori = -4.5
+51.6753 	EXP 	fixationImage: ori = -5.0
+51.6920 	EXP 	fixationImage: ori = -5.5
+51.7087 	EXP 	fixationImage: ori = -6.0
+51.7258 	EXP 	fixationImage: autoDraw = False
+51.7258 	EXP 	LeftBox: autoDraw = True
+51.7258 	EXP 	RightBox: autoDraw = True
+51.7258 	EXP 	TShape1A: autoDraw = True
+51.7258 	EXP 	TShape2A: autoDraw = True
+51.7258 	EXP 	TShape3A: autoDraw = True
+51.7258 	EXP 	NShape1A: autoDraw = True
+51.7258 	EXP 	NShape2A: autoDraw = True
+51.7258 	EXP 	NShape3A: autoDraw = True
+54.2131 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetLeft', True), ('ID', 'AAA'), ('shape', 'rectangle'), ('targetSize', 0.093), ('targetX', -0.3), ('targetY', -0.1), ('targetX2', -0.5), ('targetY2', 0.2), ('targetX3', None), ('targetY3', None), ('numNonTargets', 3), ('nontargetSize', 0.076), ('nontargetX', 0.5), ('nontargetY', -0.2), ('nontargetX2', 0.35), ('nontargetY2', -0.2), ('nontargetX3', 0.4), ('nontargetY3', 0.1), ('rewardCombo', 'Reward/Color_10.csv'), ('fixation', 'Animal/Monkey.png')])
+54.2143 	DEPRECATION 	Couldn't find image Animal/Monkey.png; check path? (tried: C:\Users\kerry\Documents\Kyle Files\PsychoPyProjects\NumberCoherence\Animal\Monkey.png)
+54.3651 	EXP 	window1: mouseVisible = True
