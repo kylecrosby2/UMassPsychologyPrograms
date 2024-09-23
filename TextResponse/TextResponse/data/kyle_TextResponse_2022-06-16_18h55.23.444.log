@@ -1,0 +1,63 @@
+1.8728 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.3898 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+12.1516 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020C52F5FAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020C5308FF40>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1519 	EXP 	window1: mouseVisible = True
+12.1519 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.1519 	EXP 	window1: recordFrameIntervals = False
+12.3182 	EXP 	window1: recordFrameIntervals = True
+12.5015 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+12.5015 	EXP 	window1: recordFrameIntervals = False
+14.8377 	EXP 	Created endButton = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endButton', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Click here to continue', units='height', win=Window(...), wrapWidth=1)
+14.8378 	EXP 	window1: mouseVisible = True
+14.8382 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+14.8384 	EXP 	New trial (rep=0, index=0): None
+14.8885 	EXP 	textbox: autoLog = True
+14.8885 	EXP 	textbox: autoDraw = True
+14.8885 	EXP 	endButton: autoDraw = True
+18.3111 	DATA 	Keypress: end
+19.2592 	DATA 	Keypress: backspace
+20.7941 	DATA 	Keypress: lshift
+20.8977 	DATA 	Keypress: h
+21.0277 	DATA 	Keypress: e
+21.1111 	DATA 	Keypress: l
+21.2279 	DATA 	Keypress: l
+21.3780 	DATA 	Keypress: o
+21.4948 	DATA 	Keypress: space
+22.0148 	DATA 	Keypress: lshift
+22.3957 	DATA 	Keypress: t
+22.4957 	DATA 	Keypress: h
+22.5794 	DATA 	Keypress: e
+22.6328 	DATA 	Keypress: r
+22.7294 	DATA 	Keypress: e
+23.0129 	DATA 	Keypress: return
+23.8972 	DATA 	Keypress: backspace
+25.1154 	DATA 	Mouse: Left button down, pos=(1020,98)
+25.1175 	EXP 	New trial (rep=1, index=0): None
+25.1315 	EXP 	textbox: autoDraw = False
+25.1315 	EXP 	endButton: autoDraw = False
+25.1315 	EXP 	textbox: autoDraw = True
+25.1315 	EXP 	endButton: autoDraw = True
+25.1988 	DATA 	Mouse:  Left button up, pos=(1020,98)
+26.7692 	DATA 	Keypress: end
+27.2005 	DATA 	Keypress: backspace
+28.7521 	DATA 	Keypress: lshift
+29.4888 	DATA 	Keypress: h
+29.6029 	DATA 	Keypress: e
+29.6889 	DATA 	Keypress: l
+29.8197 	DATA 	Keypress: l
+29.9699 	DATA 	Keypress: o
+30.1035 	DATA 	Keypress: space
+30.3369 	DATA 	Keypress: a
+30.4561 	DATA 	Keypress: g
+30.5871 	DATA 	Keypress: a
+30.6873 	DATA 	Keypress: i
+30.8041 	DATA 	Keypress: n
+32.2224 	DATA 	Mouse: Left button down, pos=(955,95)
+32.2241 	EXP 	New trial (rep=2, index=0): None
+32.2386 	EXP 	textbox: autoDraw = False
+32.2386 	EXP 	endButton: autoDraw = False
+32.2386 	EXP 	textbox: autoDraw = True
+32.2386 	EXP 	endButton: autoDraw = True
+32.3059 	DATA 	Mouse:  Left button up, pos=(955,96)
+33.5067 	DATA 	Keypress: escape
+33.7772 	EXP 	window1: mouseVisible = True
